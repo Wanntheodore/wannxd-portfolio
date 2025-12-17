@@ -96,3 +96,20 @@ body {
     margin: 10px 0;
     color: #ddd;
 }
+/* Latar belakang dan warna teks */
+body {
+    background-color: #121212;
+    color: #ddd;
+}
+
+/* Warna tombol utama */
+.btn.primary {
+    background-color: #00f;
+    color: #fff;
+}
+
+/* Warna tombol sekunder */
+.btn.secondary {
+    border: 1px solid #09f;
+    color: #09f;
+    }
