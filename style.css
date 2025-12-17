@@ -1,0 +1,98 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #ddd;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Status section */
+.status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #aaa;
+}
+
+.status-indicator {
+    width: 10px;
+    height: 10px;
+    background-color: #00ff00;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Highlights and Intro */
+.intro h1 {
+    color: #09f;
+    font-size: 2.5em;
+}
+
+.description {
+    font-size: 1.2em;
+    color: #aaa;
+}
+
+.highlight {
+    color: #00f;
+}
+
+/* Buttons */
+.btn {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    transition: 0.3s ease-in-out;
+}
+
+.btn.primary {
+    background-color: #00f;
+    color: #fff;
+}
+
+.btn.secondary {
+    background-color: transparent;
+    color: #09f;
+    border: 1px solid #09f;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+/* Social Media Links */
+.social-links {
+    margin-top: 30px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #09f;
+}
+
+.social-icon:hover {
+    text-decoration: underline;
+}
+
+/* Styles for work and contact pages */
+.work-list, .contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.work-list li, .contact-list li {
+    margin: 10px 0;
+    color: #ddd;
+}
